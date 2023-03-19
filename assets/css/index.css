@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #807d7d;
+  background-color: #000000;
+}
+
+#guess{
+  outline: transparent;
+  padding:5px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+}
+
+button{
+  background-color: transparent;
+  outline: transparent;
+  color:white;
+  padding : 5px;
+  border : 1px solid white;
+  margin-left:10px;
+}
+
+.true {
+  background: green;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+
+}
+
+.false {
+  background: red;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+
+
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+#description {
+  /* display:flex; */
+  padding: 25px;
+}
